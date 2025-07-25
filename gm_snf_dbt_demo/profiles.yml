@@ -1,0 +1,11 @@
+gm_snf_dbt_demo:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: DEV_ARF_SC_DATA_ENGINEER
+      warehouse: TASTY_BYTES_DBT_WH
+      database: GM_SF_DBT_PROJECT_DEMO_LANDING_DB
+      schema: STANDARDISED
+      account: ''
+      user: ''
