@@ -16,4 +16,4 @@ snapshot-paths:
   - snapshots
 models:
   gm_snf_dbt_demo:
-    +materialized: view
+    +materialized: table
