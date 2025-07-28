@@ -3,7 +3,7 @@ sources:
 - name: tb_101
   description: 'Point of Sale source data'
   database: GM_SF_DBT_PROJECT_DEMO_LANDING_DB
-  schema: RAW
+  schema: STANDARDISED
   tables:
   - name: COUNTRY
     description: 'Country reference data'
