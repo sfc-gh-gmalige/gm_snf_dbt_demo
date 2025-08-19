@@ -9,3 +9,4 @@ gm_snf_dbt_demo:
       schema: STANDARDISED
       account: ''
       user: ''
+      threads : 8
